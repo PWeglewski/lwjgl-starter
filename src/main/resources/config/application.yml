@@ -1,0 +1,8 @@
+mainWindowTitle: "Line simulation"
+mainWindowWidth: 800
+mainWindowHeight: 600
+mainWindowResizeable: true
+mainWindowClearColorR: 0.0
+mainWindowClearColorG: 0.0
+mainWindowClearColorB: 1.0
+mainWindowClearColorA: 0.0
