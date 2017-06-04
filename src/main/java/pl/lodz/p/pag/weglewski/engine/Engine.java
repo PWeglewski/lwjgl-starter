@@ -1,11 +1,12 @@
-package pl.lodz.p.pag.weglewski;
+package pl.lodz.p.pag.weglewski.engine;
 
 import org.lwjgl.Version;
 import org.lwjgl.glfw.GLFWErrorCallback;
-import org.lwjgl.opengl.GL;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import pl.lodz.p.pag.weglewski.config.Configuration;
+import pl.lodz.p.pag.weglewski.engine.config.Closeable;
+import pl.lodz.p.pag.weglewski.engine.config.Initializable;
+import pl.lodz.p.pag.weglewski.engine.config.Configuration;
 
 import java.util.ArrayList;
 import java.util.List;

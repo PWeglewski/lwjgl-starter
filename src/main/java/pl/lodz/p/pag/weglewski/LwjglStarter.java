@@ -1,26 +1,16 @@
 package pl.lodz.p.pag.weglewski;
 
-import org.lwjgl.Version;
-import org.lwjgl.glfw.GLFWErrorCallback;
-import org.lwjgl.glfw.GLFWVidMode;
-import org.lwjgl.opengl.GL;
-import org.lwjgl.system.MemoryStack;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import pl.lodz.p.pag.weglewski.config.Configuration;
-
-import java.nio.IntBuffer;
-
-import static org.lwjgl.glfw.Callbacks.glfwFreeCallbacks;
-import static org.lwjgl.glfw.GLFW.*;
-import static org.lwjgl.opengl.GL11.*;
-import static org.lwjgl.system.MemoryStack.stackPush;
-import static org.lwjgl.system.MemoryUtil.NULL;
+import pl.lodz.p.pag.weglewski.engine.Engine;
+import pl.lodz.p.pag.weglewski.engine.file.ObjParser;
+import pl.lodz.p.pag.weglewski.engine.model.Model;
 
 public class LwjglStarter {
     static final Logger LOG = LoggerFactory.getLogger(Engine.class);
 
     public static void main(String[] args) {
+        Model model = ObjParser.parse("src/main/resources/models/sphere.obj");
         new Engine().run();
     }
 }

@@ -1,4 +1,4 @@
-package pl.lodz.p.pag.weglewski;
+package pl.lodz.p.pag.weglewski.engine.config;
 
 /**
  * Created by piotr on 04.05.17.

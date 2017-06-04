@@ -1,4 +1,4 @@
-package pl.lodz.p.pag.weglewski.config;
+package pl.lodz.p.pag.weglewski.engine.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;

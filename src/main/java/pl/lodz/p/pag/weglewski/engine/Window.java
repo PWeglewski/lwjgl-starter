@@ -1,10 +1,12 @@
-package pl.lodz.p.pag.weglewski;
+package pl.lodz.p.pag.weglewski.engine;
 
 import org.joml.Vector4f;
 import org.lwjgl.glfw.GLFWVidMode;
 import org.lwjgl.opengl.GL;
 import org.lwjgl.system.MemoryStack;
-import pl.lodz.p.pag.weglewski.config.Configuration;
+import pl.lodz.p.pag.weglewski.engine.config.Closeable;
+import pl.lodz.p.pag.weglewski.engine.config.Configuration;
+import pl.lodz.p.pag.weglewski.engine.config.Initializable;
 
 import java.nio.IntBuffer;
 
